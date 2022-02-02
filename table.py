@@ -51,7 +51,6 @@ class TableEditor:
 
         if self._add_row_button:
             self._add_row()
-            self._update()
 
         for key, button in self._delete_buttons.items():
             if button:
